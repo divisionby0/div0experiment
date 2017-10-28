@@ -1,0 +1,16 @@
+// Variables
+
+// Gray and Brand Colors for use across theme
+
+$theme-primary: #353b48;
+$theme-success: #0bbcee;
+$color-dark-blue:#171c2b;
+$color-black:#353b48;
+$color-grey:#f3f3f3;
+
+$gray-base: #000;
+$gray-darker: lighten($gray-base, 13.5%);
+$gray-dark: lighten($gray-base, 20%);
+$gray: lighten($gray-base, 33.5%);
+$gray-light: lighten($gray-base, 46.7%);
+$gray-lighter: lighten($gray-base, 93.5%);

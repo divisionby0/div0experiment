@@ -1,0 +1,41 @@
+// Styling for the masthead
+header.masthead {
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+  text-align: center;
+
+  color: $color-black;
+  img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  .intro-text {
+    .name {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.8em;
+      font-weight: 700;
+      display: block;
+      color: $theme-success;
+      text-transform: uppercase;
+    }
+    .skills {
+      font-size: 1.25em;
+      font-weight: 300;
+    }
+  }
+}
+@media(min-width:768px) {
+  header.masthead {
+    padding-top: 170px;
+    padding-bottom: 30px;
+    .intro-text {
+      .name {
+        font-size: 3.4em;
+      }
+      .skills {
+        font-size: 1.75em;
+      }
+    }
+  }
+}
